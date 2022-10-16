@@ -1,0 +1,29 @@
+[{
+    "id": 1,
+    "titulo": "Peliculas",
+    "descripcion": "Todas las peliculas",
+    "claves": "movies",
+    "precio": 850,
+    "tipo": "servicios"
+}, {
+    "id": 2,
+    "titulo": "Reparaciones de PC",
+    "descripcion": "Reparamos todos los equipos",
+    "claves": "arreglar pc",
+    "precio": 1200,
+    "tipo": "servicios"
+}, {
+    "id": 3,
+    "titulo": "Servicios Limpieza",
+    "descripcion": "Limpiamos todo tipo de ambientes",
+    "claves": "limpieza, limpia",
+    "precio": 750,
+    "tipo": "servicios"
+}, {
+    "id": 4,
+    "titulo": "Asesoría",
+    "descripcion": "Te asesoramos para todo lo que necesites",
+    "claves": "cafe, electrodomestico",
+    "precio": 1500,
+    "tipo": "servicios"
+}]

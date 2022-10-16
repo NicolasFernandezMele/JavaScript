@@ -1,0 +1,29 @@
+[{
+    "id": 1,
+    "titulo": "Televisor",
+    "descripcion": "Televisor de 10 pulgadas",
+    "claves": "tele, television",
+    "precio": 20000,
+    "tipo": "producto"
+}, {
+    "id": 2,
+    "titulo": "Microondas",
+    "descripcion": "Microondas de 800w",
+    "claves": "calentar, comidas",
+    "precio": 659856,
+    "tipo": "producto"
+}, {
+    "id": 3,
+    "titulo": "Notebooks",
+    "descripcion": "i5, 16Gb de Ram, 256Gb SSD",
+    "claves": "computadora, laptop",
+    "precio": 125000,
+    "tipo": "producto"
+}, {
+    "id": 4,
+    "titulo": "Cafeteras",
+    "descripcion": "Cafetera para hacer café",
+    "claves": "cafe, electrodomestico",
+    "precio": 23156,
+    "tipo": "producto"
+}]

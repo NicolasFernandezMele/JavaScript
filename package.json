@@ -1,0 +1,19 @@
+{
+  "name": "41575nicolasfernandezmele",
+  "version": "1.0.0",
+  "description": "Proyecto Final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasFernandezMele/JavaScript.git"
+  },
+  "author": "Nicolas Daniel Fernandez Mele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasFernandezMele/JavaScript/issues"
+  },
+  "homepage": "https://github.com/NicolasFernandezMele/JavaScript#readme"
+}

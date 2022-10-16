@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Desafio Entregable</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="centrado header-contenedor">
+
+            <h1>WELCOME COMPRATODO</h1>
+
+            <nav>
+                <ul>
+                    <li>Llamanos 0800-122-4565</li>
+                    <li>Catalogo</li>
+                    <li>Compras realizadas</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="sombras">
+
+            <div class="formulario">
+
+                <label for="">Selecciona servicio o producto</label>
+                <select name="elegir" id="elige">
+                    <option disabled selected value="0">Seleccionar Servicios o Productos</option>
+                    <option id="producto" value="productos">Producto</option>
+                    <option id="servicio" value="servicios">Servicio</option>
+                </select>
+
+                <label for="">Selecciona el producto deseado</label>
+                <select name="producservice" id="producservice" disabled>
+                  
+                 </select>
+
+                <label for="">Precio</label>
+                <p class="precio">$0</p>
+                <div class="botones-acciones">
+                    <button id="botonAgregar" disabled>Agregar</button>
+                    <button id="botonEliminar" disabled>Eliminar</button>
+                    <button id="botonAProduct">Agregar Producto</button>
+                    <button id="botonAServ">Agregar Servicio</button>
+                </div>
+
+            </div>
+
+            <div class="resumenCompra sombras">
+                <div class="listaProducto">
+                    <h2>Resumen de compra</h2>
+                    <p>Prductos o Servicios Seleccionados</p>
+                    <p id="listadoCompra">...</p>
+
+                </div>
+                <div>
+                    <p>Total de compra: $<span id="totalCompra">*****</span></p>
+
+                    <button id="botonComprar" disabled>COMPRAR</button>
+                    <button id="botonVaciar" disabled>VACIAR</button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src=".\js\js.js"></script>
+
+
+
+</body>
+
+</html>

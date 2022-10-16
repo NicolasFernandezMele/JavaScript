@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sombras {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.centrado {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 20px;
+    height: 75vh;
+    background-image: url("https://e7.pngegg.com/pngimages/124/695/png-clipart-digital-electronic-products-product-physical-map-digital-electronic-products.png");
+    background-size: cover;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+header {
+    background-color: #4A6C6F;
+    padding: 15px 0;
+    color: white;
+}
+
+.header-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+select {
+    padding: 1rem;
+    font-size: 20px;
+    margin-bottom: 12px
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+button {
+    padding: 1rem;
+}
+
+input {
+    padding: 1rem;
+    margin-bottom: 12px
+}
+
+footer {
+    background-color: black;
+    height: 250px;
+}
+
+.resumenCompra {
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.precio {
+    font-size: 29px;
+}
+
+.listaProducto {
+    display: flex;
+    flex-direction: column;
+}
+
+.novisible {
+    display: none;
+}
